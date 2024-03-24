@@ -1,5 +1,7 @@
 # cistup-final
 
+# ps: to view the video click on demo-video.mp4 and click on view raw to download it
+
 step 1: clone the repository using git clone <url> in your pc
 
 step 2: step1: congratulations on cloning!!
