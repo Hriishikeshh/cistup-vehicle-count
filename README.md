@@ -1,12 +1,13 @@
 # cistup-final
 
 # ps: to view the video click on demo-video.mp4 and click on view raw to download it
+#use
 
 step 1: clone the repository using git clone <url> in your pc
 
-step 2: step1: congratulations on cloning!!
+step2: for better vehicle detection, install yolov3-spp from https://pjreddie.com/darknet/yolo/ both cfc and weights files in the dnn_model folder
 
-step2: install yolov4.weights from https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights in dnn_model folder
+step3: rename path in vehicle_detector.py file from dnn_model\yolov3-tiny.cfg to dnn_model\yolov3-spp.cfg and dnn_model\yolov3-tiny.weights to dnn_model\yolov3-spp.weights respectively.
 
 step3: cd over frontend folder and type npm install in powershell to install frontend packages
 
